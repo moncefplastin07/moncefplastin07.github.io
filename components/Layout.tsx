@@ -2,8 +2,14 @@ import React, { Component } from "react";
 import Head from "next/head";
 import Link from 'next/link'
 import ToggleDisplayThemeButton from "./ToggleDisplayThemeButton";
+interface MyProps {
+  title: string
+}
 
-class Layout extends Component {
+interface MyState {
+  displayTheme: string
+}
+class Layout extends Component<MyProps, MyState> {
   constructor(props) {
     super(props);
     this.state = { displayTheme: "light" };
