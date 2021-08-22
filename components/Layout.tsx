@@ -30,15 +30,15 @@ class Layout extends Component<MyProps, MyState> {
   }
   render() {
     return (
-      <div className={`h-screen font-mono dark:bg-black dark:text-gray-300 `}>
+      <div className={`w-full font-mono dark:bg-black dark:text-gray-300 `}>
         <Head>
           <title>{this.props.title}</title>
-          <meta name="viewport" content="width=device-width"></meta>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div className='m-auto max-w-4xl sm:w-full'>
           <header>
-            <nav>
+            <nav className='p-5'>
               <Link href="/">
                 <a>Home</a>
               </Link>{' '}
