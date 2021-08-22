@@ -34,7 +34,8 @@ class Layout extends Component<MyProps, MyState> {
         <Head>
           <title>{this.props.title}</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-          <link rel="icon" href="/favicon.ico" />
+          <meta name="theme-color" content="#000"/>
+          <link rel="icon" href="https://www.gravatar.com/avatar/ea52ed86c481ca2816b8403acdbc9169?s=512" />
         </Head>
         <div className='m-auto max-w-4xl sm:w-full'>
           <header>
