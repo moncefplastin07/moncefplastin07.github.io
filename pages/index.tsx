@@ -6,14 +6,14 @@ const IndexPage = () => (
     
     <div className='w-80 m-auto rounded-full mb-10 border-gray-300 relative' >
       <img src='https://www.gravatar.com/avatar/ea52ed86c481ca2816b8403acdbc9169?s=512' className="w-80 m-auto rounded-full"></img>
-      <p className='absolute -right-24 -bottom-10 transform -rotate-12'>
-      <span className='text-sm rounded-md	bg-opacity-20 bg-red-200 border border-red-300 py-1 px-2'>Hi there 👋</span>
-    </p>
+      <p className='absolute -right-24 -bottom-10 xs:right-0 xs:-bottom-5 transform -rotate-12'>
+        <span className='text-sm rounded-md	bg-opacity-20 bg-red-200 border border-red-300 py-1 px-2'>Hi there 👋</span>
+      </p>
     </div>
     
     <div className="text-center">
       <h1 className='text-5xl font-bold'>Moncef Gaha</h1>
-      <p className="text-gray-400 p-5">
+      <p className="text-gray-800 p-5">
         <span>
           <a href="https://github.com/moncefplastin07" className='hover:text-gray-100'>
             Github
