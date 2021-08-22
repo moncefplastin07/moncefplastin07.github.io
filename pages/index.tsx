@@ -7,7 +7,7 @@ const IndexPage = () => (
     <div className='w-80 m-auto rounded-full mb-10 border-gray-300 relative' >
       <img src='https://www.gravatar.com/avatar/ea52ed86c481ca2816b8403acdbc9169?s=512' className="w-80 m-auto rounded-full"></img>
       <p className='absolute -right-24 -bottom-10 xs:right-0 xs:-bottom-5 transform -rotate-12 rounded-md	bg-opacity-20 bg-red-200 border border-red-300 py-1 px-2 inline-flex'>
-        <span className='relative text-sm p-1'>Hi there </span><p className='delay-75	ease-in-out animate-roll'> 👋</p>
+        <span className='relative text-sm p-1 font-bold'>Hi there </span><p className='delay-75	ease-in-out animate-roll'> 👋</p>
       </p>
     </div>
     <div className="text-center">
