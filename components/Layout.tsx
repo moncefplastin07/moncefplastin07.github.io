@@ -45,7 +45,7 @@ class Layout extends Component<MyProps, MyState> {
               </Link>{' '}
               |{' '}
               <Link href="/about">
-                <a>About</a>
+                <a>About me</a>
               </Link>
             </nav>
           </header>
