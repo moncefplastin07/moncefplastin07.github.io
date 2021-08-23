@@ -33,9 +33,14 @@ class Layout extends Component<MyProps, MyState> {
     return (
       <div className={`min-h-screen	w-full font-mono transition-colors duration-500	 ease-linear dark:bg-black dark:text-gray-300 `}>
         <Head>
-          <title>{this.props.title}</title>
+          <meta charSet="utf-8"/>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+          <title>{this.props.title}</title>
           <meta name="theme-color" content="#000"/>
+          <meta name="description" content="Moncef Gaha, 21 year from Algeria, Web backend devloper"/>
+          <meta name="robots" content="index,follow"/>
+          <meta name="googlebot" content="index,follow"/>
+          <meta name="google" content="notranslate"/>
           <link rel="icon" href="https://www.gravatar.com/avatar/ea52ed86c481ca2816b8403acdbc9169?s=512" />
         </Head>
         <div className='m-auto max-w-4xl sm:w-full'>
