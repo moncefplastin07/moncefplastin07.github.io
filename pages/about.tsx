@@ -2,13 +2,13 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 
 const AboutPage = () => (
-  <Layout title="Moncef Gaha">
+  <Layout title="Moncef Gaha - About">
     <div className="px-5">
       <p className='leading-loose py-7'>
         I am Moncef Gaha,{" "}
         {((Date.now() - new Date("2000-12-07").getTime()) / 1000 / 60 / 60 /
           24 / 30 / 12).toFixed(0)}{" "}
-        year from Algeria, Web backend devloper i started self-learning since 2015, I interested in open source software, I have the skills <a href='#My-skills'>below</a>
+        year from Algeria, Web backend developer i started self-learning since 2015, I interested in open source software, I have the skills <a href='#My-skills'>below</a>
       </p>
       <p>
         <strong className='text-lg' id='My-skills'>My skills:</strong>
