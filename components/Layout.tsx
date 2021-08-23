@@ -19,6 +19,7 @@ class Layout extends Component<MyProps, MyState> {
       displayTheme: window.localStorage.displayTheme || "light",
     });
     document.getElementById('__next').classList.add(window.localStorage.displayTheme || "light")
+    document.querySelector("html").style.scrollBehavior = 'smooth'
   }
   toggleDisplayTheme() {
     const newDisplayTheme = this.state.displayTheme == "light"
