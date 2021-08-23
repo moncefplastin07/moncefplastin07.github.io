@@ -37,7 +37,7 @@ class Layout extends Component<MyProps, MyState> {
           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
           <title>{this.props.title}</title>
           <meta name="theme-color" content="#000"/>
-          <meta name="description" content="Moncef Gaha, 21 year from Algeria, Web backend devloper"/>
+          <meta name="description" content="Moncef Gaha, 21 year from Algeria, Web backend developer"/>
           <meta name="robots" content="index,follow"/>
           <meta name="googlebot" content="index,follow"/>
           <meta name="google" content="notranslate"/>
