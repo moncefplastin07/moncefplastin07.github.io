@@ -1,12 +1,11 @@
-import Link from "next/link";
 import Layout from "../components/Layout";
-
 const IndexPage = () => (
   <Layout title="Moncef Gaha">
     <div className="w-80 m-auto rounded-full mb-10 border-gray-300 relative">
       <img
         src="https://www.gravatar.com/avatar/ea52ed86c481ca2816b8403acdbc9169?s=512"
         className="w-80 m-auto rounded-full"
+        alt="Moncef Gaha Gravatar"
       >
       </img>
       <p
