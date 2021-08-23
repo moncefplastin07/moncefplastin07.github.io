@@ -17,7 +17,7 @@ const IndexPage = () => (
     </div>
     <div className="text-center">
       <h1 className="text-5xl font-bold">Moncef Gaha</h1>
-      <p className="text-gray-800 p-5">
+      <p className="text-gray-800 dark:text-gray-500 p-5">
         <span>
           <a
             href="https://github.com/moncefplastin07"
