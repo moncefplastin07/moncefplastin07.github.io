@@ -31,7 +31,7 @@ class Layout extends Component<MyProps, MyState> {
   }
   render() {
     return (
-      <div className={`min-h-screen	w-full font-mono transition-colors duration-500	 ease-linear dark:bg-black dark:text-gray-300 `}>
+      <div className={`min-h-screen	w-full font-mono transition-colors duration-200	 ease-linear dark:bg-black dark:text-gray-300 `}>
         <Head>
           <meta charSet="utf-8"/>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
