@@ -3,8 +3,8 @@ const IndexPage = () => (
   <Layout title="Moncef Gaha">
     <div className="w-80 m-auto rounded-full mb-10 border-gray-300 relative">
       <img
-        src="https://www.gravatar.com/avatar/ea52ed86c481ca2816b8403acdbc9169?s=512"
-        className="w-80 m-auto rounded-full"
+        src="https://www.gravatar.com/avatar/ea52ed86c481ca2816b8403acdbc9169?s=256"
+        className="w-80 h-80 xs:w-60 xs:h-60 m-auto rounded-full animate-skeleton"
         alt="Moncef Gaha Gravatar"
       >
       </img>
@@ -17,7 +17,7 @@ const IndexPage = () => (
     </div>
     <div className="text-center">
       <h1 className="text-5xl font-bold">Moncef Gaha</h1>
-      <p className="text-gray-800 dark:text-gray-500 p-5">
+      <div className="text-gray-800 dark:text-gray-500 p-5">
         <span>
           <a
             href="https://github.com/moncefplastin07"
@@ -29,13 +29,23 @@ const IndexPage = () => (
         <span>{" "}.{" "}</span>
         <span>
           <a
+            href="https://www.linkedin.com/in/moncefplastin07/"
+            className="hover:text-gray-600"
+          >
+            Linkedin
+          </a>
+        </span>
+        <span>{" "}.{" "}</span>
+        <span>
+          <a
             href="https://twitter.com/moncefplastin07/"
             className="hover:text-gray-600"
           >
             Twitter
           </a>
         </span>
-        <span>{" "}.{" "}</span>
+        <div className="w-full hidden xs:block"></div>
+        <span className="xs:hidden">{" "}.{" "}</span>
         <span>
           <a
             href="https://facebook.com/moncefplastin07/"
@@ -53,7 +63,7 @@ const IndexPage = () => (
             Instagram
           </a>
         </span>
-      </p>
+      </div>
 
       <p className="text-xl p-4">Web backend Developer from Biskra/Algeria</p>
       <p className="text-md p-5">
