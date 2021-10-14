@@ -41,7 +41,7 @@ class Layout extends Component<MyProps, MyState> {
           <meta name="robots" content="index,follow"/>
           <meta name="googlebot" content="index,follow"/>
           <meta name="google" content="notranslate"/>
-          <link rel="icon" href="https://www.gravatar.com/avatar/ea52ed86c481ca2816b8403acdbc9169?s=512" />
+          <link rel="icon" href="https://www.gravatar.com/avatar/ea52ed86c481ca2816b8403acdbc9169?s=16" />
         </Head>
         <div className='m-auto max-w-4xl sm:w-full'>
           <header>
